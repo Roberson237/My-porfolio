@@ -1,15 +1,7 @@
 {
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "installCommand": "pnpm install",
-        "buildCommand": "pnpm build",
-        "distDir": "dist/public"
-      }
-    }
-  ],
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist/public",
   "routes": [
     {
       "src": "/(.*)",
