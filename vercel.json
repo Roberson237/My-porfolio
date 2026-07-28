@@ -1,6 +1,6 @@
 {
   "installCommand": "pnpm install",
-  "buildCommand": "pnpm build",
+  "buildCommand": "cd client && pnpm exec vite build --outDir ../dist/public",
   "outputDirectory": "dist/public",
   "routes": [
     {
