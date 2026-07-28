@@ -4,6 +4,8 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
+        "installCommand": "pnpm install",
+        "buildCommand": "pnpm build",
         "distDir": "dist/public"
       }
     }
